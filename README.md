@@ -1,6 +1,6 @@
-bert-model/：训练好的 fraud_detection_model.pt 权重（通过 Git LFS 管理）
-deepseek_multithreaded_results/：多线程 DeepSeek 对抗生成实验输出
-2024.findings-acl.292.pdf：参考论文 Evaluating the Validity of Word-level Adversarial Attacks with LLMs
+bert-model/：训练好的 fraud_detection_model.pt 权重（通过 Git LFS 管理）\n
+deepseek_multithreaded_results/：多线程 DeepSeek 对抗生成实验输出\n
+2024.findings-acl.292.pdf：参考论文 Evaluating the Validity of Word-level Adversarial Attacks with LLMs\n
 adversarial_attack_framework.py：词重要性、同义词替换、语义相似度检测与 LLM 评估的核心实现
 adversarial_experiment.py：基线评估、TextFooler 攻击、消融实验与报告生成入口
 deepseek.py：多线程调用 DeepSeek API 生成对抗文本并与 BERT 分类器对比
